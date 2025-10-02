@@ -1,0 +1,62 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.20/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.20",
+    "version": "1.0.0",
+    "id": "c01b56f7-ee05-4a4f-9edf-e073e5b76fe7",
+    "developer": {
+        "name": "Microsoft",
+        "mpnId": "",
+        "websiteUrl": "https://microsoft.com",
+        "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+        "termsOfUseUrl": "https://www.microsoft.com/legal/terms-of-use"
+    },
+    "name": {
+        "short": "travel-agent-2-local",
+        "full": "Travel Agent 2"
+    },
+    "description": {
+        "short": "Sample bot that repeats back what you say",
+        "full": "Sample bot that repeats back what you say"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "conversations",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "about",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "bots": [
+        {
+            "botId": "ff13cd53-7f28-49c0-a5c7-edc45fb6a959",
+            "isNotificationOnly": false,
+            "supportsFiles": false,
+            "supportsCalling": false,
+            "supportsVideo": false,
+            "scopes": [
+                "personal",
+                "team",
+                "groupChat"
+            ]
+        }
+    ],
+    "validDomains": [
+        "4s88w54p-3978.usw2.devtunnels.ms",
+        "*.botframework.com"
+    ],
+    "webApplicationInfo": {
+        "id": "ff13cd53-7f28-49c0-a5c7-edc45fb6a959",
+        "resource": "api://botid-ff13cd53-7f28-49c0-a5c7-edc45fb6a959"
+    }
+}
